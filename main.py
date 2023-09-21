@@ -11,6 +11,9 @@ def mul_func(n1, n2) :
 def div_func(n1, n2) :
  return n1/n2
 
+def mull_func(n1, n2) :
+ return n1**n2
+
 
 ## 전역 변수부
 num1 = 100
@@ -28,3 +31,6 @@ print(num1,'*', num2, '=', res)
 
 res = div_func(num1, num2)
 print(num1,'/', num2, '=', res)
+
+res = mull_func(num1, num2)
+print(num1,'**', num2, '=', res)
